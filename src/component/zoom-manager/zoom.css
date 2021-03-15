@@ -1,0 +1,61 @@
+.zoom-container {
+  max-width: 40%;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6em 1.2em;
+  border-style: none;
+  border-radius: 2em;
+  margin: 0 0.3em 0.3em 0;
+  /* box-sizing: border-box; */
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #488cf7;
+  text-align: center;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: #3073e5;
+}
+
+.task {
+  padding: 20px 100px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.task-imp {
+  padding: 20px 100px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #fdfbf1;
+}
+
+.deleteBtn {
+  padding-top: 12px;
+  color: grey;
+  cursor: pointer;
+}
+
+input {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1.5px solid #eee;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin: 0 10px;
+}
+
+.add-form {
+  margin: 20px 0;
+}

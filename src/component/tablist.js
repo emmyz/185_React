@@ -6,7 +6,12 @@ class Tablist extends Component {
     console.log("id is " + this.props.activeTab);
     // display each tab with individual tab (itab)
     return this.props.tabs.map((tab) => (
-      <Tab out={tab} activetab={this.props.activeTab} ctab={this.props.ctab} />
+      <Tab
+        key={tab.id}
+        out={tab}
+        activetab={this.props.activeTab}
+        ctab={this.props.ctab}
+      />
     ));
   }
 }

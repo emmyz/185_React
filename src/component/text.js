@@ -7,25 +7,25 @@ class Text extends Component {
       <div id="form_container">
         <br></br>
         <form>
-          <label for="first">First name:</label>
+          <label htmlFor="first">First name:</label>
           <br></br>
           <input type="text" id="first" />
           <br></br>
-          <label for="last">Last name:</label>
+          <label htmlFor="last">Last name:</label>
           <br></br>
           <input type="text" id="last" />
-          <p>
+          <div>
             <p>Favorite Food</p>
             <input type="radio" id="food1" />
-            <label for="food1">Pizza</label>
+            <label htmlFor="food1">Pizza</label>
             <br></br>
             <input type="radio" id="food2" />
-            <label for="food2">Ice Cream</label>
+            <label htmlFor="food2">Ice Cream</label>
             <br></br>
             <input type="radio" id="food3" />
-            <label for="food3">Burger</label>
-          </p>
-
+            <label htmlFor="food3">Burger</label>
+          </div>
+          <br></br>
           <button>Done</button>
         </form>
       </div>

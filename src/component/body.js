@@ -4,6 +4,7 @@ import Video from "./video";
 import Image from "./image";
 import Table from "./table";
 import Email from "./email";
+import Zoom from "./zoom-manager/zoom";
 
 class Body extends Component {
   // body display content according to active tab num
@@ -18,8 +19,10 @@ class Body extends Component {
         return <Video />;
       } else if (activeTab === 4) {
         return <Table />;
-      } else {
+      } else if (activeTab === 5) {
         return <Email />;
+      } else {
+        return <Zoom />;
       }
     };
     return displayContent();
